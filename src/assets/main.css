@@ -1,0 +1,8 @@
+@import './base.css';
+@import './tailMain.css';
+
+html,
+body,
+#app {
+  height: 100%;
+}
