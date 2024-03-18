@@ -13,4 +13,5 @@ const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 app.use(ArcoVue);
-createApp(App).mount('#app')
+
+app.mount('#app');
